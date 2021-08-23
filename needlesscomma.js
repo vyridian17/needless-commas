@@ -4,6 +4,11 @@ function needlessComma(str) {
   }
 
   const wordsArray = str.split(" ");
+
+  if (wordsArray.length < 2) {
+    return `Sentence too, short. Please enter, two or, more words.`;
+  }
+
   let commaInserted = false;
   let result;
 
@@ -26,6 +31,4 @@ function needlessComma(str) {
   return result;
 }
 
-function insertComma(word) {}
-
-console.log(needlessComma("A cat."));
+module.exports = { needlessComma };
