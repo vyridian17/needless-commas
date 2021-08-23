@@ -1,0 +1,20 @@
+{
+  "name": "needless-commas",
+  "version": "1.0.0",
+  "description": "Inserts needless commas into your sentences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyridian17/needless-commas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyridian17/needless-commas/issues"
+  },
+  "homepage": "https://github.com/vyridian17/needless-commas#readme"
+}
